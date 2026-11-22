@@ -20,10 +20,10 @@ const jetbrains = JetBrains_Mono({
 
 const SITE_URL = "https://asaduzzamanrifat.vercel.app";
 const NAME = "Md. Asaduzzaman";
-const JOB_TITLE = "Laravel & MERN Stack Developer";
+const JOB_TITLE = "PHP & Laravel Developer";
 const TITLE = `${NAME} | ${JOB_TITLE}`;
 const DESCRIPTION =
-  "Md. Asaduzzaman is a web developer from Bangladesh working with PHP, Laravel and the MERN stack, building dynamic web applications, backend functionality and API integrations. Currently learning Next.js and TypeScript.";
+  "Md. Asaduzzaman is a Junior Software Developer from Bangladesh working with PHP and Laravel, building dynamic web applications, backend functionality and API integrations. Currently learning MERN stack, Next.js and TypeScript.";
 
 const SOCIAL_PROFILES = [
   "https://github.com/asad4405",

@@ -2,6 +2,8 @@ export { Navbar } from "./Navbar";
 export { Hero } from "./Hero";
 export { About } from "./About";
 export { Stack } from "./Stack";
+export { Experience } from "./Experience";
+export { Education } from "./Education";
 export { Connect } from "./Connect";
 export { Footer } from "./Footer";
 export { ScrollProgress } from "./ScrollProgress";

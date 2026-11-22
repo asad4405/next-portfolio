@@ -24,9 +24,11 @@ export function CodeCard() {
             {"  "}name: <span className={s}>&quot;Md. Asaduzzaman&quot;</span>,
             {"\n"}
             {"  "}from: <span className={s}>&quot;Bangladesh&quot;</span>,{"\n"}
-            {"  "}stack: [<span className={s}>&quot;Laravel&quot;</span>,{" "}
-            <span className={s}>&quot;MERN&quot;</span>],{"\n"}
+            {"  "}stack: [<span className={s}>&quot;PHP&quot;</span>,{" "}
+            <span className={s}>&quot;Laravel&quot;</span>],{"\n"}
             {"  "}learning: [{"\n"}
+            {"    "}
+            <span className={s}>&quot;MERN&quot;</span>,{"\n"}
             {"    "}
             <span className={s}>&quot;Next.js&quot;</span>,{"\n"}
             {"    "}

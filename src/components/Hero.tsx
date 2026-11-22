@@ -32,7 +32,7 @@ export function Hero() {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
                 <span className="relative inline-flex size-2 rounded-full bg-emerald-500" />
               </span>
-              Laravel &amp; MERN Stack Developer
+              PHP &amp; Laravel Developer
             </span>
           </Reveal>
 

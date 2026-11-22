@@ -25,7 +25,7 @@ export function About() {
       <SectionHeading
         id="about-heading"
         eyebrow="01 / About"
-        title="About Md. Asaduzzaman, Laravel & MERN Developer"
+        title="About Md. Asaduzzaman, PHP & Laravel Developer"
       />
 
       <div className="grid gap-4 md:grid-cols-6">
@@ -36,13 +36,12 @@ export function About() {
               Hello! I&apos;m{" "}
               <strong className={gradientText}>Md. Asaduzzaman</strong>, a web
               developer from Bangladesh, working with{" "}
-              <strong>PHP, Laravel and the MERN stack</strong>. I enjoy building
+              <strong>PHP and Laravel</strong>. I enjoy building
               dynamic web applications, developing backend functionality,
               integrating APIs and solving real-world problems through code.
             </p>
             <p className="text-muted-foreground relative mt-4 text-lg leading-relaxed">
-              I&apos;m now expanding my skills with Next.js and TypeScript to
-              become a versatile full-stack developer.
+              I&apos;m currently working as a Junior Software Developer at Danpite Tech Company and expanding my skills with MERN stack, Next.js and TypeScript.
             </p>
           </div>
         </Reveal>
@@ -54,7 +53,7 @@ export function About() {
             </div>
             <h3 className="font-bold">Main Stack</h3>
             <p className="text-muted-foreground mt-1">
-              Laravel &amp; MERN Stack
+              PHP &amp; Laravel
             </p>
           </div>
         </Reveal>
@@ -66,7 +65,7 @@ export function About() {
             </div>
             <h3 className="font-bold">Learning Path</h3>
             <p className="text-muted-foreground mt-1">
-              Next.js &amp; TypeScript
+              MERN Stack, Next.js &amp; TS
             </p>
           </div>
         </Reveal>
@@ -90,7 +89,7 @@ export function About() {
             </div>
             <h3 className="font-bold">Ask Me About</h3>
             <p className="text-muted-foreground mt-1">
-              Laravel, PHP, MERN, REST APIs, MySQL &amp; Web Development
+              Laravel, PHP, REST APIs, MySQL &amp; Web Development
             </p>
           </div>
         </Reveal>
