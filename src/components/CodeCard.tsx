@@ -21,7 +21,7 @@ export function CodeCard() {
             <span className={k}>const</span> <span className={p}>developer</span>{" "}
             = {"{"}
             {"\n"}
-            {"  "}name: <span className={s}>&quot;Md. Asaduzzaman&quot;</span>,
+            {"  "}name: <span className={s}>&quot;Md. Asaduzzaman Rifat&quot;</span>,
             {"\n"}
             {"  "}from: <span className={s}>&quot;Bangladesh&quot;</span>,{"\n"}
             {"  "}stack: [<span className={s}>&quot;PHP&quot;</span>,{" "}

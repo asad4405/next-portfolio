@@ -25,7 +25,7 @@ export function About() {
       <SectionHeading
         id="about-heading"
         eyebrow="01 / About"
-        title="About Md. Asaduzzaman, PHP & Laravel Developer"
+        title="About Md. Asaduzzaman Rifat, PHP & Laravel Developer"
       />
 
       <div className="grid gap-4 md:grid-cols-6">
@@ -34,7 +34,7 @@ export function About() {
             <div className="absolute -top-16 -right-16 size-48 rounded-full bg-sky-500/10 blur-2xl transition-all duration-500 group-hover:bg-sky-500/20" />
             <p className="relative text-lg leading-relaxed sm:text-xl">
               Hello! I&apos;m{" "}
-              <strong className={gradientText}>Md. Asaduzzaman</strong>, a web
+              <strong className={gradientText}>Md. Asaduzzaman Rifat</strong>, a web
               developer from Bangladesh, working with{" "}
               <strong>PHP and Laravel</strong>. I enjoy building
               dynamic web applications, developing backend functionality,

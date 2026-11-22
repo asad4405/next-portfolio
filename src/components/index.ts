@@ -6,7 +6,6 @@ export { Experience } from "./Experience";
 export { Education } from "./Education";
 export { Connect } from "./Connect";
 export { Footer } from "./Footer";
-export { ScrollProgress } from "./ScrollProgress";
 export { ThemeToggle } from "./ThemeToggle";
 export { Reveal } from "./Reveal";
 export { Typewriter } from "./Typewriter";

@@ -19,17 +19,20 @@ const jetbrains = JetBrains_Mono({
 /* ------------------------------------------------------------------ */
 
 const SITE_URL = "https://asaduzzamanrifat.vercel.app";
-const NAME = "Md. Asaduzzaman";
-const JOB_TITLE = "PHP & Laravel Developer";
+const NAME = "Md. Asaduzzaman Rifat";
+const SHORT_NAME = "Asaduzzaman Rifat";
+const JOB_TITLE = "Junior Software Developer | PHP & Laravel Developer";
 const TITLE = `${NAME} | ${JOB_TITLE}`;
 const DESCRIPTION =
-  "Md. Asaduzzaman is a Junior Software Developer from Bangladesh working with PHP and Laravel, building dynamic web applications, backend functionality and API integrations. Currently learning MERN stack, Next.js and TypeScript.";
+  "Official portfolio of Md. Asaduzzaman Rifat (asad4405) - Junior Software Developer at Danpite Tech Company and PHP & Laravel Developer from Bangladesh. Exploring projects, experience, tech stack, and software development.";
 
 const SOCIAL_PROFILES = [
   "https://github.com/asad4405",
+  "https://github.com/asad4405/next-portfolio",
   "https://www.linkedin.com/in/md-asaduzzaman-rifat",
   "https://www.facebook.com/123mdasaduzzaman",
   "https://www.instagram.com/asad.rifat.4405/",
+  "https://asaduzzamanrifat.vercel.app/",
 ];
 
 export const metadata: Metadata = {
@@ -41,24 +44,51 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   applicationName: `${NAME} Portfolio`,
   keywords: [
-    "Md. Asaduzzaman",
+    // Direct Names & Variations
+    "Md. Asaduzzaman Rifat",
+    "Md Asaduzzaman Rifat",
     "Asaduzzaman Rifat",
-    "Laravel developer",
+    "Asad Rifat",
+    "Md. Asaduzzaman",
+    "Md Asaduzzaman",
+    "Asaduzzaman",
+    "Rifat",
+    "asad4405",
+    "asad.rifat.4405",
+    "123mdasaduzzaman",
+
+    // Role & Company
+    "Junior Software Developer",
+    "Junior Software Developer Bangladesh",
+    "Danpite Tech Company",
+    "Danpite Tech",
+    "Danpite Tech Asaduzzaman Rifat",
+    "Software Developer Danpite Tech",
+
+    // Tech Stack
     "PHP developer",
-    "MERN stack developer",
-    "full-stack web developer",
-    "web developer Bangladesh",
+    "Laravel developer",
+    "PHP Laravel developer",
     "Laravel developer Bangladesh",
+    "PHP developer Bangladesh",
+    "Backend developer Bangladesh",
+    "Full-stack web developer",
+    "REST API developer",
+    "MySQL database developer",
+    "MERN stack developer",
     "React developer",
-    "Next.js",
-    "TypeScript",
-    "Node.js",
-    "Express",
-    "MongoDB",
-    "MySQL",
-    "REST API",
-    "Tailwind CSS",
-    "portfolio",
+    "Next.js developer",
+    "TypeScript developer",
+    "Tailwind CSS developer",
+
+    // Portfolio Queries
+    "Md. Asaduzzaman Rifat portfolio",
+    "Asaduzzaman Rifat portfolio",
+    "Asaduzzaman Rifat website",
+    "Asaduzzaman Rifat GitHub",
+    "asad4405 GitHub",
+    "asaduzzamanrifat.vercel.app",
+    "web developer portfolio Bangladesh",
   ],
   authors: [{ name: NAME, url: SITE_URL }],
   creator: NAME,
@@ -67,18 +97,31 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico" },
+    ],
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   openGraph: {
-    type: "website",
+    type: "profile",
+    firstName: "Md. Asaduzzaman",
+    lastName: "Rifat",
+    username: "asad4405",
+    gender: "male",
     url: SITE_URL,
-    siteName: `${NAME} Portfolio`,
+    siteName: `${NAME} - Portfolio`,
     title: TITLE,
     description: DESCRIPTION,
     locale: "en_US",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: TITLE,
     description: DESCRIPTION,
+    creator: "@asad4405",
   },
   robots: {
     index: true,
@@ -104,11 +147,11 @@ export const viewport: Viewport = {
   colorScheme: "light dark",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#0a0a0a" },
+    { media: "(prefers-color-scheme: dark)", color: "#090d16" },
   ],
 };
 
-/* Structured data (JSON-LD): Person + WebSite + WebPage */
+/* Structured data (JSON-LD): Person + ProfilePage + WebSite */
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -116,48 +159,70 @@ const jsonLd = {
       "@type": "Person",
       "@id": `${SITE_URL}/#person`,
       name: NAME,
-      alternateName: "Asaduzzaman Rifat",
+      givenName: "Md. Asaduzzaman",
+      familyName: "Rifat",
+      additionalName: "Asad",
+      alternateName: [
+        SHORT_NAME,
+        "Md. Asaduzzaman",
+        "Md Asaduzzaman",
+        "Asad Rifat",
+        "asad4405",
+        "123mdasaduzzaman",
+      ],
       url: SITE_URL,
       email: "mailto:123mdasaduzzaman@gmail.com",
-      jobTitle: JOB_TITLE,
+      jobTitle: "Junior Software Developer",
+      worksFor: {
+        "@type": "Organization",
+        name: "Danpite Tech Company",
+      },
+      alumniOf: [
+        {
+          "@type": "CollegeOrUniversity",
+          name: "National University",
+          address: { "@type": "PostalAddress", addressCountry: "BD" },
+        },
+      ],
       description: DESCRIPTION,
       nationality: { "@type": "Country", name: "Bangladesh" },
-      address: { "@type": "PostalAddress", addressCountry: "BD" },
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Jamalpur",
+        addressCountry: "BD",
+      },
       knowsAbout: [
         "PHP",
         "Laravel",
-        "MERN Stack",
+        "MySQL",
+        "REST APIs",
+        "JavaScript",
         "React",
         "Next.js",
         "TypeScript",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "MySQL",
-        "REST APIs",
         "Tailwind CSS",
-        "Web Development",
+        "Git",
+        "GitHub",
+        "Full-Stack Web Development",
       ],
       sameAs: SOCIAL_PROFILES,
     },
     {
-      "@type": "WebSite",
-      "@id": `${SITE_URL}/#website`,
-      url: SITE_URL,
-      name: `${NAME} Portfolio`,
-      description: DESCRIPTION,
-      inLanguage: "en",
-      publisher: { "@id": `${SITE_URL}/#person` },
-    },
-    {
-      "@type": "WebPage",
-      "@id": `${SITE_URL}/#webpage`,
+      "@type": "ProfilePage",
+      "@id": `${SITE_URL}/#profilepage`,
       url: SITE_URL,
       name: TITLE,
       description: DESCRIPTION,
       inLanguage: "en",
-      isPartOf: { "@id": `${SITE_URL}/#website` },
-      about: { "@id": `${SITE_URL}/#person` },
+      mainEntity: { "@id": `${SITE_URL}/#person` },
+      isPartOf: {
+        "@type": "WebSite",
+        "@id": `${SITE_URL}/#website`,
+        url: SITE_URL,
+        name: `${NAME} Portfolio`,
+        alternateName: `${SHORT_NAME} Portfolio`,
+        publisher: { "@id": `${SITE_URL}/#person` },
+      },
     },
   ],
 };
@@ -165,7 +230,11 @@ const jsonLd = {
 // Runs before first paint so the saved / system theme is applied with no flash.
 const themeScript = `(function(){try{var t=localStorage.getItem('theme');var d=t?t==='dark':window.matchMedia('(prefers-color-scheme: dark)').matches;document.documentElement.classList.toggle('dark',d)}catch(e){}})();`;
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html
       lang="en"
@@ -173,6 +242,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${jakarta.variable} ${jetbrains.variable} h-full scroll-smooth antialiased`}
     >
       <head>
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/favicon.svg" />
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         <script
           type="application/ld+json"

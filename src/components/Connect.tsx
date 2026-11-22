@@ -1,11 +1,10 @@
 "use client";
 
-import { ArrowUpRight, Compass, Globe, Mail } from "lucide-react";
+import { ArrowUpRight, Compass, Mail } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
+import { GitHubIcon } from "@/components/Icons";
 import {
   EMAIL,
-  PORTFOLIO,
-  PORTFOLIO_LABEL,
   gradientText,
   socials,
 } from "@/data/portfolio";
@@ -46,13 +45,13 @@ export function Connect() {
               {EMAIL}
             </a>
             <a
-              href={PORTFOLIO}
+              href="https://github.com/asad4405"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-background/70 hover:bg-background inline-flex h-12 items-center gap-2 rounded-full border px-7 font-semibold backdrop-blur-md transition-all hover:-translate-y-0.5"
             >
-              <Globe className="size-4" />
-              {PORTFOLIO_LABEL}
+              <GitHubIcon className="size-4.5" />
+              github.com/asad4405
               <ArrowUpRight className="size-4" />
             </a>
           </div>

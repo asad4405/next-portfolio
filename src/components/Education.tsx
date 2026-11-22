@@ -104,7 +104,7 @@ export function Education() {
         <div className="grid gap-6 md:grid-cols-2">
           {trainings.map((t, i) => (
             <Reveal key={t.title + i} delay={i * 150}>
-              <div className="bg-card group relative h-full overflow-hidden rounded-3xl border p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+              <div className="bg-card group relative flex h-full flex-col justify-between overflow-hidden rounded-3xl border p-7 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
                 <div className="absolute -top-12 -right-12 size-40 rounded-full bg-indigo-500/10 blur-2xl transition-all duration-500 group-hover:bg-indigo-500/20" />
 
                 <div className="relative">

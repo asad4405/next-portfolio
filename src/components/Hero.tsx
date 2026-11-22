@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, ArrowUpRight, Globe, Mail } from "lucide-react";
+import { ArrowRight, Briefcase, Mail } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
 import { Typewriter } from "@/components/Typewriter";
 import { CodeCard } from "@/components/CodeCard";
@@ -43,7 +43,7 @@ export function Hero() {
             >
               Hi, I&apos;m
               <br />
-              <span className={gradientText}>Md. Asaduzzaman</span>{" "}
+              <span className={gradientText}>Md. Asaduzzaman Rifat</span>{" "}
               <span className="inline-block origin-bottom-right animate-wave motion-reduce:animate-none">
                 👋
               </span>
@@ -75,14 +75,12 @@ export function Hero() {
                 <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
               </a>
               <a
-                href={PORTFOLIO}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#experience"
                 className="bg-card/70 hover:bg-accent inline-flex h-12 items-center gap-2 rounded-full border px-7 font-semibold backdrop-blur-md transition-all hover:-translate-y-0.5"
               >
-                <Globe className="size-4" />
-                Visit portfolio
-                <ArrowUpRight className="size-4" />
+                <Briefcase className="size-4 text-sky-500" />
+                View Experience
+                <ArrowRight className="size-4" />
               </a>
             </div>
           </Reveal>

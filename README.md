@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Md. Asaduzzaman Rifat - Portfolio
 
-## Getting Started
+Official portfolio website of **Md. Asaduzzaman Rifat** (`asad4405`), Junior Software Developer at Danpite Tech Company and PHP & Laravel Developer from Bangladesh.
 
-First, run the development server:
+🌐 **Live URL:** [https://asaduzzamanrifat.vercel.app/](https://asaduzzamanrifat.vercel.app/)  
+📂 **GitHub Repository:** [https://github.com/asad4405/next-portfolio](https://github.com/asad4405/next-portfolio)
+
+---
+
+## 👨‍💻 About Me
+
+- **Name:** Md. Asaduzzaman Rifat (Asaduzzaman Rifat)
+- **Role:** Junior Software Developer
+- **Company:** Danpite Tech Company
+- **Primary Stack:** PHP, Laravel, MySQL, JavaScript, REST APIs, Tailwind CSS
+- **Learning & Expanding:** MERN Stack, Next.js, TypeScript
+- **Location:** Bangladesh
+- **Email:** [123mdasaduzzaman@gmail.com](mailto:123mdasaduzzaman@gmail.com)
+
+---
+
+## 🛠️ Built With
+
+- **Framework:** [Next.js](https://nextjs.org/) (App Router, React 19)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Icons:** [Lucide Icons](https://lucide.dev/)
+- **SEO & Structured Data:** JSON-LD Schema.org (Person, WebSite, ProfilePage), OpenGraph Dynamic Banner, Sitemap (`/sitemap.xml`), Robots (`/robots.txt`), Manifest (`/manifest.webmanifest`)
+- **Deployment:** [Vercel](https://vercel.com/)
+
+---
+
+## 🚀 Getting Started
+
+To run this portfolio locally:
 
 ```bash
+# Clone the repository
+git clone https://github.com/asad4405/next-portfolio.git
+
+# Navigate to project directory
+cd next-portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📬 Connect with Me
 
-## Learn More
+- **Portfolio:** [https://asaduzzamanrifat.vercel.app/](https://asaduzzamanrifat.vercel.app/)
+- **GitHub:** [https://github.com/asad4405](https://github.com/asad4405)
+- **LinkedIn:** [https://www.linkedin.com/in/md-asaduzzaman-rifat](https://www.linkedin.com/in/md-asaduzzaman-rifat)
+- **Facebook:** [https://www.facebook.com/123mdasaduzzaman](https://www.facebook.com/123mdasaduzzaman)
+- **Instagram:** [https://www.instagram.com/asad.rifat.4405/](https://www.instagram.com/asad.rifat.4405/)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2026 **Md. Asaduzzaman Rifat**. All rights reserved.
