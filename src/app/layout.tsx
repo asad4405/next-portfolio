@@ -106,21 +106,27 @@ export const metadata: Metadata = {
     apple: "/favicon.svg",
   },
   openGraph: {
-    type: "profile",
-    firstName: "Md. Asaduzzaman",
-    lastName: "Rifat",
-    username: "asad4405",
-    gender: "male",
+    type: "website",
     url: SITE_URL,
     siteName: `${NAME} - Portfolio`,
     title: TITLE,
     description: DESCRIPTION,
     locale: "en_US",
+    images: [
+      {
+        url: `${SITE_URL}/og-image.png`,
+        width: 1200,
+        height: 630,
+        alt: `${NAME} - Portfolio`,
+        type: "image/png",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: TITLE,
     description: DESCRIPTION,
+    images: [`${SITE_URL}/og-image.png`],
     creator: "@asad4405",
   },
   robots: {
@@ -245,6 +251,24 @@ export default function RootLayout({
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/favicon.svg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Md. Asaduzzaman Rifat - Portfolio" />
+        <meta property="og:title" content="Md. Asaduzzaman Rifat | Junior Software Developer" />
+        <meta
+          property="og:description"
+          content="Official portfolio of Md. Asaduzzaman Rifat - Junior Software Developer at Danpite Tech Company and PHP & Laravel Developer from Bangladesh."
+        />
+        <meta property="og:image" content="https://asaduzzamanrifat.vercel.app/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:url" content="https://asaduzzamanrifat.vercel.app/" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Md. Asaduzzaman Rifat | Junior Software Developer" />
+        <meta
+          name="twitter:description"
+          content="Official portfolio of Md. Asaduzzaman Rifat - Junior Software Developer at Danpite Tech Company and PHP & Laravel Developer from Bangladesh."
+        />
+        <meta name="twitter:image" content="https://asaduzzamanrifat.vercel.app/og-image.png" />
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         <script
           type="application/ld+json"
